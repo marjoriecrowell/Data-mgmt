@@ -1,8 +1,11 @@
-# Data-mgmt-final-project
-Final project for data management class
+# Data-mgmt
+Course materials for data management class
 
 ## Contents of repository
-I have uploaded for this project a colab notebook and 3 data files in .csv format. 
+I have uploaded for this project two directories:
+
+* One labeled "THA1," which contains my colab notebook and 3 .csv files for the THA1
+* One labeled "Colab notebooks," which contains my colab notebooks from the class lab sessions
 
 ## Data files and information
 The three data files 
