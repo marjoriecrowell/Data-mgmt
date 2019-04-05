@@ -1,0 +1,64 @@
+Location,Breast Cancer Rate
+United States,124.8
+Alabama,123.3
+Alaska,122
+Arizona,110.9
+Arkansas,117.1
+California,121.4
+Colorado,123.4
+Connecticut,143.9
+Delaware,136.2
+District of Columbia,121.1
+Florida,113.8
+Georgia,126.4
+Hawaii,134.8
+Idaho,124.7
+Illinois,134.5
+Indiana,121.3
+Iowa,129
+Kansas,129.7
+Kentucky,126.8
+Louisiana,126.7
+Maine,124.5
+Maryland,131.4
+Massachusetts,137.7
+Michigan,119
+Minnesota,134.5
+Mississippi,117.3
+Missouri,129.9
+Montana,130.1
+Nebraska,127.7
+Nevada,104.7
+New Hampshire,145.9
+New Jersey,134.9
+New Mexico,107.8
+New York,134
+North Carolina,132.6
+North Dakota,133.1
+Ohio,127.9
+Oklahoma,121.5
+Oregon,115.6
+Pennsylvania,131.3
+Rhode Island,136.6
+South Carolina,129.9
+South Dakota,127.4
+Tennessee,122.2
+Texas,112.2
+Utah,113.4
+Vermont,130.5
+Virginia,124.5
+Washington,132
+West Virginia,119.6
+Wisconsin,129
+Wyoming,104
+,
+Notes,
+"Incidence data are compiled from cancer registries meeting U.S. Cancer Statistics data quality criteria covering 100% of the U.S. population. For more information, see U.S. Cancer Statistics Data Visualizations Tool [Technical Notes](https://www.cdc.gov/cancer/uscs/technical_notes/index.htm).",
+,
+"Rates are per 100,000 women and are age-adjusted to the 2000 U.S. standard population.",
+,
+Sources,
+"U.S. Cancer Statistics Working Group. U.S. Cancer Statistics Data Visualizations Tool, based on November 2017 submission data (1999-2015): U.S. Department of Health and Human Services, Centers for Disease Control and Prevention and National Cancer Institute; [www.cdc.gov/cancer/dataviz](www.cdc.gov/cancer/dataviz), June 2018.",
+,
+Definitions,
+*N/A*: Data not available.,
