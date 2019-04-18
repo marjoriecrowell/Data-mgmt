@@ -40,5 +40,5 @@ rename statezip2 zipcode
 drop statezip
 drop citystatezip
 
-save "cpcs.dta"
+save "/Users/marjoriecrowell/Documents/Data management/Data management assignments/Final project/Working data/cpcs.dta"
 
