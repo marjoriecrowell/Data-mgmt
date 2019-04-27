@@ -13,6 +13,9 @@ import delimited using "/Users/marjoriecrowell/Documents/Data management/Data ma
 	
 	* I want to drop the v1 variable
 	drop v1
+	
+	* I want to rename the change in rate variable
+	rename change_in_rate* change_in_ab_rate
 
 * Preparing for analysis: I need to create dummy variables for the ones I'm looking at
 	* Creating a dummy variable for waiting periods
@@ -30,3 +33,15 @@ import delimited using "/Users/marjoriecrowell/Documents/Data management/Data ma
 
 * Now I can do the regression
 regress abortion_rate_2014 waiting_yn ultrasound_yn
+
+regress abortion_rate_2014 waiting_yn ultrasound_yn change_in_ab_rate
+
+* I also want to look at whether my variables are correlated
+foreach variable of varlist waiting_yn ultrasound_yn change_in_ab_rate {
+correlate abortion_rate_2014 `variable'
+}
+
+correlate waiting_yn ultrasound_yn
+correlate ultrasound_yn change_in_ab_rate
+correlate waiting_yn change_in_ab_rate
+
