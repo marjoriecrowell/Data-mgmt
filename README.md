@@ -19,8 +19,9 @@ Contains all materials related to the final project:
 	* Working data, with all data i'm working with right now
 	* Raw data, which contains raw data files
 ### "THA4" contains my code, raw datasets, merged datasets for THA4
-	* Code, with all files related to code
-	* Merged_dataset, which contains the merged dataset
-	* raw_data, which contains the raw data files
+* Code, with all files related to code
+* Merged_dataset, which contains the merged dataset
+* raw_data, which contains the raw data files
+* Output, which contains the Stata output
 
 
