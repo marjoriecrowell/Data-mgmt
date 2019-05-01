@@ -45,6 +45,8 @@ replace ultrasound=. if ultrasound_required=="26 Yes"
 regress numbercpcs numberproviders numberabortions any_gest_limit ultrasound
 * Number of providers and ultrasound are both significant
 
+regress numbercpcs numberproviders ultrasound
+
 
 save "/Users/marjoriecrowell/Documents/Data management/Data management assignments/Final project/Working data/cpcs.dta"
 
