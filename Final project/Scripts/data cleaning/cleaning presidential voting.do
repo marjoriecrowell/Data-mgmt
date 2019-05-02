@@ -17,7 +17,10 @@ replace party="democrat" if party=="democratic-farmer-labor"
 * Drop write-ins for 2 main party candidates
 drop if writein == "TRUE"
 
-foreach 
+gen partyvotes = .
+replace partyvotes = (candidatevotes/totalvotes) 
+
+
 
 gen republican2012 = .
 foreach state in "Alabama" "Alaska" "Arizona" "Arkansas" "California" ///
@@ -29,7 +32,7 @@ foreach state in "Alabama" "Alaska" "Arizona" "Arkansas" "California" ///
  "Oregon" "Pennsylvania" "Rhode Island" "South Carolina" "South Dakota" ///
  "Tennessee" "Texas" "Utah" "Vermont" "Virginia" "Washington" "West Virginia" ///
  "Wisconsin" "Wyoming" {
- replace republican2012=1 if 
+ replace republican2012=1 if candidatevotes (state==`state' & year==2012 & party=="republican") > candidatevotes (state==`state' & year==2012 & party=="republican")
  
 
 }
