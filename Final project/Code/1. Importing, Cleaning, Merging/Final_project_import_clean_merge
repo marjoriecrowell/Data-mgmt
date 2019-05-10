@@ -3,7 +3,7 @@
   "nbformat_minor": 0,
   "metadata": {
     "colab": {
-      "name": "Final project",
+      "name": "Final project_initial import and clean",
       "version": "0.3.2",
       "provenance": [],
       "collapsed_sections": [],
@@ -134,7 +134,7 @@
       "metadata": {
         "id": "bpuosbevdOS_",
         "colab_type": "code",
-        "outputId": "d78c5605-bf8d-469d-ab24-91e0bfd26945",
+        "outputId": "fceb74b0-704f-4002-bd05-fa034ebd0e33",
         "colab": {
           "base_uri": "https://localhost:8080/",
           "height": 1471
@@ -162,7 +162,7 @@
         "cpcs.to_csv(\"cpcs.csv\")\n",
         "                       "
       ],
-      "execution_count": 156,
+      "execution_count": 1,
       "outputs": [
         {
           "output_type": "stream",
@@ -269,7 +269,7 @@
       "metadata": {
         "id": "oRXKtL2ndkb1",
         "colab_type": "code",
-        "outputId": "8b3a00a0-d806-4160-c1ee-8180b034a827",
+        "outputId": "dc2eb027-dc3c-47df-ac70-a570f2892456",
         "colab": {
           "base_uri": "https://localhost:8080/",
           "height": 225
@@ -292,7 +292,7 @@
         "print(\"4. Getting last 5 records\")\n",
         "print(cpcs.tail(5))"
       ],
-      "execution_count": 157,
+      "execution_count": 2,
       "outputs": [
         {
           "output_type": "stream",
@@ -332,7 +332,7 @@
           "base_uri": "https://localhost:8080/",
           "height": 345
         },
-        "outputId": "6bfa39bb-c700-47ae-f47f-a7a533403f49"
+        "outputId": "5af8f17d-6926-45dd-cebf-15ad20417eea"
       },
       "cell_type": "code",
       "source": [
@@ -356,7 +356,7 @@
         "print(\"5. Re-saving CPCs file\")\n",
         "cpcs.to_csv(\"cpcs.csv\")\n"
       ],
-      "execution_count": 158,
+      "execution_count": 3,
       "outputs": [
         {
           "output_type": "stream",
@@ -403,7 +403,7 @@
           "base_uri": "https://localhost:8080/",
           "height": 173
         },
-        "outputId": "d3423653-a1ca-471b-f03b-39ed68efed25"
+        "outputId": "9f1976f5-d02f-428a-8817-87d2293d38e2"
       },
       "cell_type": "code",
       "source": [
@@ -417,7 +417,7 @@
         "print(\"2. renaming columns\")\n",
         "cpcs_bystate.columns = ['state', 'number_cpcs']\n"
       ],
-      "execution_count": 159,
+      "execution_count": 4,
       "outputs": [
         {
           "output_type": "stream",
@@ -435,6 +435,29 @@
           "name": "stdout"
         }
       ]
+    },
+    {
+      "metadata": {
+        "id": "alNK9RtYprOm",
+        "colab_type": "text"
+      },
+      "cell_type": "markdown",
+      "source": [
+        "##### Export dataset"
+      ]
+    },
+    {
+      "metadata": {
+        "id": "G3_l_vKQps6L",
+        "colab_type": "code",
+        "colab": {}
+      },
+      "cell_type": "code",
+      "source": [
+        "cpcs.to_csv(\"cpcs.csv\")"
+      ],
+      "execution_count": 0,
+      "outputs": []
     },
     {
       "metadata": {
@@ -475,7 +498,7 @@
       "metadata": {
         "id": "cCKqLZRFGcyq",
         "colab_type": "code",
-        "outputId": "78969b6a-a754-4eef-fea6-350eeab0d97c",
+        "outputId": "6fe05d30-76cf-4d9e-8f7f-7fc080b53ec4",
         "colab": {
           "base_uri": "https://localhost:8080/",
           "height": 2145
@@ -498,7 +521,7 @@
         "print(facility_regulations.columns)\n",
         "                       "
       ],
-      "execution_count": 160,
+      "execution_count": 6,
       "outputs": [
         {
           "output_type": "stream",
@@ -648,7 +671,7 @@
           "base_uri": "https://localhost:8080/",
           "height": 486
         },
-        "outputId": "f16756a1-089a-49d6-d120-1e46c7956429"
+        "outputId": "b80084ae-9751-4a9a-c322-5e976d4e51d5"
       },
       "cell_type": "code",
       "source": [
@@ -676,7 +699,7 @@
         "print(\"5. Retrieving last 10 records - to check\")\n",
         "print(facility_regulations.tail(10))"
       ],
-      "execution_count": 161,
+      "execution_count": 7,
       "outputs": [
         {
           "output_type": "stream",
@@ -714,6 +737,29 @@
     },
     {
       "metadata": {
+        "id": "4I62495ZqOwq",
+        "colab_type": "text"
+      },
+      "cell_type": "markdown",
+      "source": [
+        "##### Exporting dataset"
+      ]
+    },
+    {
+      "metadata": {
+        "id": "Ny3MaRGGqOUv",
+        "colab_type": "code",
+        "colab": {}
+      },
+      "cell_type": "code",
+      "source": [
+        "facility_regulations.to_csv(\"facility_regulations.csv\")"
+      ],
+      "execution_count": 0,
+      "outputs": []
+    },
+    {
+      "metadata": {
         "id": "-IEeXzgF9ZmY",
         "colab_type": "text"
       },
@@ -742,7 +788,7 @@
           "base_uri": "https://localhost:8080/",
           "height": 1244
         },
-        "outputId": "9eed8635-ac30-4b95-b88a-91185e37a140"
+        "outputId": "a8743739-e4ba-42b5-8849-a6f57840f1f7"
       },
       "cell_type": "code",
       "source": [
@@ -757,7 +803,7 @@
         "print(\"3. Retrieving last 5 records\")\n",
         "print(gest_age.tail(5))"
       ],
-      "execution_count": 162,
+      "execution_count": 9,
       "outputs": [
         {
           "output_type": "stream",
@@ -856,7 +902,7 @@
           "base_uri": "https://localhost:8080/",
           "height": 435
         },
-        "outputId": "57718f0c-4813-4f3b-c437-fc67b53056cb"
+        "outputId": "b3907996-073d-4f8f-839e-4fe916c8bb8d"
       },
       "cell_type": "code",
       "source": [
@@ -876,7 +922,7 @@
         "print(\"5. Checking last 10\")\n",
         "print(gest_age.tail(10))"
       ],
-      "execution_count": 163,
+      "execution_count": 10,
       "outputs": [
         {
           "output_type": "stream",
@@ -911,6 +957,29 @@
     },
     {
       "metadata": {
+        "id": "fKSLyLFeqbuW",
+        "colab_type": "text"
+      },
+      "cell_type": "markdown",
+      "source": [
+        "##### Exporting dataset"
+      ]
+    },
+    {
+      "metadata": {
+        "id": "gsKgTM0SqdV_",
+        "colab_type": "code",
+        "colab": {}
+      },
+      "cell_type": "code",
+      "source": [
+        "gest_age.to_csv(\"gest_age.csv\")"
+      ],
+      "execution_count": 0,
+      "outputs": []
+    },
+    {
+      "metadata": {
         "id": "TV5K2cwmAsxw",
         "colab_type": "text"
       },
@@ -939,7 +1008,7 @@
           "base_uri": "https://localhost:8080/",
           "height": 1782
         },
-        "outputId": "a9c1f025-b900-420a-d4ed-50996a7a2966"
+        "outputId": "60689fa2-1a9d-46a3-9f3c-be54bdecdf11"
       },
       "cell_type": "code",
       "source": [
@@ -960,7 +1029,7 @@
         "print(list(ultrasounds))\n",
         "\n"
       ],
-      "execution_count": 164,
+      "execution_count": 13,
       "outputs": [
         {
           "output_type": "stream",
@@ -1089,7 +1158,7 @@
           "base_uri": "https://localhost:8080/",
           "height": 469
         },
-        "outputId": "adcf1ee7-f0a4-4d6f-a839-6eef96cf404c"
+        "outputId": "90b40096-b4a3-4b43-9405-fe13cce5e0cc"
       },
       "cell_type": "code",
       "source": [
@@ -1113,7 +1182,7 @@
         "print(\"5. Retrieving last 10 records\")\n",
         "print(ultrasounds.tail(10))"
       ],
-      "execution_count": 165,
+      "execution_count": 14,
       "outputs": [
         {
           "output_type": "stream",
@@ -1150,6 +1219,29 @@
     },
     {
       "metadata": {
+        "id": "jt-6vKLGqlJL",
+        "colab_type": "text"
+      },
+      "cell_type": "markdown",
+      "source": [
+        "##### Exporting dataset"
+      ]
+    },
+    {
+      "metadata": {
+        "id": "_hj5vzcGqmYT",
+        "colab_type": "code",
+        "colab": {}
+      },
+      "cell_type": "code",
+      "source": [
+        "ultrasounds.to_csv(\"ultrasounds.csv\")"
+      ],
+      "execution_count": 0,
+      "outputs": []
+    },
+    {
+      "metadata": {
         "id": "cfLn0QUBBgvV",
         "colab_type": "text"
       },
@@ -1177,7 +1269,7 @@
           "base_uri": "https://localhost:8080/",
           "height": 987
         },
-        "outputId": "5a1bc0e7-3fe6-4921-d2d0-b467fba63758"
+        "outputId": "617701ca-4a3d-4aab-b69f-bc85c1193618"
       },
       "cell_type": "code",
       "source": [
@@ -1196,7 +1288,7 @@
         "print(state_policies.columns)\n",
         "print(list(state_policies))"
       ],
-      "execution_count": 166,
+      "execution_count": 16,
       "outputs": [
         {
           "output_type": "stream",
@@ -1279,7 +1371,7 @@
           "base_uri": "https://localhost:8080/",
           "height": 691
         },
-        "outputId": "24c34ad4-9af5-407a-aa9d-b718be36f3b1"
+        "outputId": "b0811f38-8f73-4c1c-cf05-f4189a6aaeeb"
       },
       "cell_type": "code",
       "source": [
@@ -1295,7 +1387,7 @@
         "print(\"4. checking last 10\")\n",
         "print(state_policies.tail(10))"
       ],
-      "execution_count": 167,
+      "execution_count": 17,
       "outputs": [
         {
           "output_type": "stream",
@@ -1346,12 +1438,37 @@
     },
     {
       "metadata": {
+        "id": "iKWBAg_JqyUE",
+        "colab_type": "text"
+      },
+      "cell_type": "markdown",
+      "source": [
+        "##### Exporting dataset"
+      ]
+    },
+    {
+      "metadata": {
+        "id": "9VTdZ3M4qz-L",
+        "colab_type": "code",
+        "colab": {}
+      },
+      "cell_type": "code",
+      "source": [
+        "state_policies.to_csv(\"state_policies.csv\")"
+      ],
+      "execution_count": 0,
+      "outputs": []
+    },
+    {
+      "metadata": {
         "id": "BiJywok43_tb",
         "colab_type": "text"
       },
       "cell_type": "markdown",
       "source": [
-        "#### Restrictions, 5: Medicaid for abortions"
+        "#### Restrictions, 5: Medicaid for abortions\n",
+        "\n",
+        "https://www.kff.org/medicaid/state-indicator/abortion-under-medicaid/?currentTimeframe=0&sortModel=%7B%22colId%22:%22Location%22,%22sort%22:%22asc%22%7D"
       ]
     },
     {
@@ -1372,7 +1489,7 @@
           "base_uri": "https://localhost:8080/",
           "height": 1125
         },
-        "outputId": "3d5a1d25-0207-44ea-f368-846cc038862b"
+        "outputId": "bd8f9ede-d5a4-4748-88a8-339fc6768d00"
       },
       "cell_type": "code",
       "source": [
@@ -1393,7 +1510,7 @@
         "print(Medicaid_abs.columns)\n",
         "print(list(Medicaid_abs))"
       ],
-      "execution_count": 168,
+      "execution_count": 19,
       "outputs": [
         {
           "output_type": "stream",
@@ -1484,7 +1601,7 @@
           "base_uri": "https://localhost:8080/",
           "height": 866
         },
-        "outputId": "f1548726-8f6a-46e4-8737-979c90b81048"
+        "outputId": "aa7c6661-f1d6-4764-cf41-13e7ab8d427c"
       },
       "cell_type": "code",
       "source": [
@@ -1494,7 +1611,7 @@
         "\n",
         "print(Medicaid_abs.tail(10))"
       ],
-      "execution_count": 169,
+      "execution_count": 20,
       "outputs": [
         {
           "output_type": "stream",
@@ -1560,7 +1677,7 @@
           "base_uri": "https://localhost:8080/",
           "height": 259
         },
-        "outputId": "92fe0392-f414-4905-82d7-6c0dc60b3e21"
+        "outputId": "8b612ea1-03c6-4f2f-d524-8eb83595dd31"
       },
       "cell_type": "code",
       "source": [
@@ -1574,7 +1691,7 @@
         "print(\"3. Checking dataset\")\n",
         "print(Medicaid_abs.tail(10))"
       ],
-      "execution_count": 170,
+      "execution_count": 21,
       "outputs": [
         {
           "output_type": "stream",
@@ -1600,12 +1717,36 @@
     },
     {
       "metadata": {
+        "id": "pS0Zs_nwrAbw",
+        "colab_type": "text"
+      },
+      "cell_type": "markdown",
+      "source": [
+        "##### Exporting dataset"
+      ]
+    },
+    {
+      "metadata": {
+        "id": "1iHkihFTrBtE",
+        "colab_type": "code",
+        "colab": {}
+      },
+      "cell_type": "code",
+      "source": [
+        "Medicaid_abs.to_csv(\"Medicaid_abs.csv\")"
+      ],
+      "execution_count": 0,
+      "outputs": []
+    },
+    {
+      "metadata": {
         "id": "fRbeNyfVB_Hu",
         "colab_type": "text"
       },
       "cell_type": "markdown",
       "source": [
-        "#### Restrictions, 6: Parental consent laws"
+        "#### Restrictions, 6: Parental consent laws\n",
+        "https://www.kff.org/womens-health-policy/state-indicator/parental-consentnotification/?currentTimeframe=0&sortModel=%7B%22colId%22:%22Location%22,%22sort%22:%22asc%22%7D"
       ]
     },
     {
@@ -1626,7 +1767,7 @@
           "base_uri": "https://localhost:8080/",
           "height": 415
         },
-        "outputId": "fad1b592-0d7b-4ec6-f6b5-9329d1fa69cb"
+        "outputId": "cad5404d-61a4-40f3-8c71-fd9fd8dd5e54"
       },
       "cell_type": "code",
       "source": [
@@ -1638,7 +1779,7 @@
         "\n",
         "print(parental_consent.head(10))"
       ],
-      "execution_count": 171,
+      "execution_count": 23,
       "outputs": [
         {
           "output_type": "stream",
@@ -1689,7 +1830,7 @@
           "base_uri": "https://localhost:8080/",
           "height": 35
         },
-        "outputId": "a399c980-c783-4a60-f965-7b953b2040de"
+        "outputId": "2e24cfe2-2afe-4d8f-c339-a0fda822f1fe"
       },
       "cell_type": "code",
       "source": [
@@ -1697,7 +1838,7 @@
         "print (\"1. Dropping last 11 rows\")\n",
         "parental_consent.drop(parental_consent.tail(11).index,inplace=True)"
       ],
-      "execution_count": 172,
+      "execution_count": 24,
       "outputs": [
         {
           "output_type": "stream",
@@ -1733,14 +1874,14 @@
           "base_uri": "https://localhost:8080/",
           "height": 207
         },
-        "outputId": "8c6ef03a-1c8f-450e-d324-d3be8e28f6a0"
+        "outputId": "07f4e046-4dd6-41b6-e1cb-f2d96d57ce43"
       },
       "cell_type": "code",
       "source": [
         "# Previewing last 10 rows\n",
         "print(parental_consent.tail(10))"
       ],
-      "execution_count": 174,
+      "execution_count": 26,
       "outputs": [
         {
           "output_type": "stream",
@@ -1763,12 +1904,37 @@
     },
     {
       "metadata": {
+        "id": "4mfugds_rPU1",
+        "colab_type": "text"
+      },
+      "cell_type": "markdown",
+      "source": [
+        "##### exporting dataset"
+      ]
+    },
+    {
+      "metadata": {
+        "id": "l4z_8CnSrRAH",
+        "colab_type": "code",
+        "colab": {}
+      },
+      "cell_type": "code",
+      "source": [
+        "parental_consent.to_csv(\"parental_consent.csv\")"
+      ],
+      "execution_count": 0,
+      "outputs": []
+    },
+    {
+      "metadata": {
         "id": "z2q0hnkhCD_O",
         "colab_type": "text"
       },
       "cell_type": "markdown",
       "source": [
-        "#### Restrictions, 7: Mandatory waiting periods by state"
+        "#### Restrictions, 7: Mandatory waiting periods by state\n",
+        "\n",
+        "https://www.kff.org/womens-health-policy/state-indicator/mandatory-waiting-periods/"
       ]
     },
     {
@@ -1789,7 +1955,7 @@
           "base_uri": "https://localhost:8080/",
           "height": 987
         },
-        "outputId": "f40d191b-431b-4f18-9438-ed777a682a05"
+        "outputId": "3a57a4a6-1762-4792-e1f5-b26bb1aafcdd"
       },
       "cell_type": "code",
       "source": [
@@ -1808,7 +1974,7 @@
         "print(waiting_periods.columns)\n",
         "print(list(waiting_periods))"
       ],
-      "execution_count": 175,
+      "execution_count": 28,
       "outputs": [
         {
           "output_type": "stream",
@@ -1891,7 +2057,7 @@
           "base_uri": "https://localhost:8080/",
           "height": 276
         },
-        "outputId": "75e6271c-6e49-4fba-8c3c-4717b33731b8"
+        "outputId": "a037dba1-47e9-4125-d52e-eb4bfa349eca"
       },
       "cell_type": "code",
       "source": [
@@ -1909,7 +2075,7 @@
         "print(\"4. Checking dataset\")\n",
         "print(waiting_periods.tail(10))"
       ],
-      "execution_count": 176,
+      "execution_count": 29,
       "outputs": [
         {
           "output_type": "stream",
@@ -1936,12 +2102,37 @@
     },
     {
       "metadata": {
+        "id": "smWnS_e_ravN",
+        "colab_type": "text"
+      },
+      "cell_type": "markdown",
+      "source": [
+        "##### Exporting dataset"
+      ]
+    },
+    {
+      "metadata": {
+        "id": "UeZEKYukrcA4",
+        "colab_type": "code",
+        "colab": {}
+      },
+      "cell_type": "code",
+      "source": [
+        "waiting_periods.to_csv(\"waiting_periods.csv\")"
+      ],
+      "execution_count": 0,
+      "outputs": []
+    },
+    {
+      "metadata": {
         "id": "VL71N_VfCfs2",
         "colab_type": "text"
       },
       "cell_type": "markdown",
       "source": [
-        "#### Restrictions, 8: State ban on so-called \"partial birth\" abortions"
+        "#### Restrictions, 8: State ban on so-called \"partial birth\" abortions\n",
+        "\n",
+        "https://www.kff.org/womens-health-policy/state-indicator/partial-birth-abortion-bans/?currentTimeframe=0&sortModel=%7B%22colId%22:%22Location%22,%22sort%22:%22asc%22%7D"
       ]
     },
     {
@@ -1962,7 +2153,7 @@
           "base_uri": "https://localhost:8080/",
           "height": 622
         },
-        "outputId": "27b26df8-cd15-488b-e273-8f50156165b8"
+        "outputId": "793003cb-7180-4892-9d26-c8eca9db7ded"
       },
       "cell_type": "code",
       "source": [
@@ -1978,7 +2169,7 @@
         "print(\"2. Previewing last 5 records\")\n",
         "print(partial_birth.tail(5))"
       ],
-      "execution_count": 177,
+      "execution_count": 31,
       "outputs": [
         {
           "output_type": "stream",
@@ -2041,7 +2232,7 @@
           "base_uri": "https://localhost:8080/",
           "height": 155
         },
-        "outputId": "df2e54b8-8a39-45e8-d63f-8f9c1ad021a5"
+        "outputId": "46a71b01-3f88-4ee9-cc8f-6e1d8a8b2c79"
       },
       "cell_type": "code",
       "source": [
@@ -2057,7 +2248,7 @@
         "\n",
         "print(partial_birth.tail(5))"
       ],
-      "execution_count": 178,
+      "execution_count": 32,
       "outputs": [
         {
           "output_type": "stream",
@@ -2074,6 +2265,29 @@
           "name": "stdout"
         }
       ]
+    },
+    {
+      "metadata": {
+        "id": "nz629QVRrndH",
+        "colab_type": "text"
+      },
+      "cell_type": "markdown",
+      "source": [
+        "##### Exporting dataset"
+      ]
+    },
+    {
+      "metadata": {
+        "id": "MmD_xO9irota",
+        "colab_type": "code",
+        "colab": {}
+      },
+      "cell_type": "code",
+      "source": [
+        "partial_birth.to_csv(\"partial_birth.csv\")"
+      ],
+      "execution_count": 0,
+      "outputs": []
     },
     {
       "metadata": {
@@ -2105,7 +2319,7 @@
           "base_uri": "https://localhost:8080/",
           "height": 970
         },
-        "outputId": "3800293f-f547-4173-aab4-1c2d5346e530"
+        "outputId": "edbf3e13-b072-4500-961d-d465eb8cf429"
       },
       "cell_type": "code",
       "source": [
@@ -2125,7 +2339,7 @@
         "print(abortions_bystate.columns)\n",
         "print(list(abortions_bystate))"
       ],
-      "execution_count": 179,
+      "execution_count": 34,
       "outputs": [
         {
           "output_type": "stream",
@@ -2197,7 +2411,7 @@
           "base_uri": "https://localhost:8080/",
           "height": 259
         },
-        "outputId": "0f7a4828-cdd4-43f8-ef97-527cd7c27307"
+        "outputId": "13fac1db-76b4-410d-c2dd-ef29961f6574"
       },
       "cell_type": "code",
       "source": [
@@ -2216,7 +2430,7 @@
         "print(\"3. Checking dataset\")\n",
         "print(abortions_bystate.tail(10))"
       ],
-      "execution_count": 180,
+      "execution_count": 35,
       "outputs": [
         {
           "output_type": "stream",
@@ -2239,6 +2453,29 @@
           "name": "stdout"
         }
       ]
+    },
+    {
+      "metadata": {
+        "id": "dezmpNPZruRH",
+        "colab_type": "text"
+      },
+      "cell_type": "markdown",
+      "source": [
+        "##### Exporting dataset"
+      ]
+    },
+    {
+      "metadata": {
+        "id": "kHxIQteJrwxO",
+        "colab_type": "code",
+        "colab": {}
+      },
+      "cell_type": "code",
+      "source": [
+        "abortions_bystate.to_csv(\"abortions_bystate.csv\")"
+      ],
+      "execution_count": 0,
+      "outputs": []
     },
     {
       "metadata": {
@@ -2270,7 +2507,7 @@
           "base_uri": "https://localhost:8080/",
           "height": 607
         },
-        "outputId": "fc4b56de-e3b8-4177-ce71-bb0cf6da11ae"
+        "outputId": "b70eec5f-f68f-46a4-a57c-f9fcac32c8e5"
       },
       "cell_type": "code",
       "source": [
@@ -2289,7 +2526,7 @@
         "print(abortion_providers.columns)\n",
         "print(list(abortion_providers))"
       ],
-      "execution_count": 181,
+      "execution_count": 37,
       "outputs": [
         {
           "output_type": "stream",
@@ -2350,7 +2587,7 @@
           "base_uri": "https://localhost:8080/",
           "height": 985
         },
-        "outputId": "bb38e277-64f8-421b-c0c6-e7307d157b89"
+        "outputId": "cf46c575-467c-4921-d13c-60c93853bf63"
       },
       "cell_type": "code",
       "source": [
@@ -2368,7 +2605,7 @@
         "print(\"4. Checking dataset\")\n",
         "print(abortion_providers.head(51))"
       ],
-      "execution_count": 182,
+      "execution_count": 38,
       "outputs": [
         {
           "output_type": "stream",
@@ -2436,6 +2673,29 @@
     },
     {
       "metadata": {
+        "id": "x0zXIliir2Se",
+        "colab_type": "text"
+      },
+      "cell_type": "markdown",
+      "source": [
+        "##### Exporting dataset"
+      ]
+    },
+    {
+      "metadata": {
+        "id": "X1zDm-hFr4ut",
+        "colab_type": "code",
+        "colab": {}
+      },
+      "cell_type": "code",
+      "source": [
+        "abortion_providers.to_csv(\"abortion_providers.csv\")"
+      ],
+      "execution_count": 0,
+      "outputs": []
+    },
+    {
+      "metadata": {
         "id": "07a2mLODKSny",
         "colab_type": "text"
       },
@@ -2474,7 +2734,7 @@
           "base_uri": "https://localhost:8080/",
           "height": 380
         },
-        "outputId": "8ace2803-2bd0-4bcc-822b-a6d8f0a6d3d2"
+        "outputId": "5642bf02-aa31-4120-a1fd-c3e916f8b3ed"
       },
       "cell_type": "code",
       "source": [
@@ -2488,7 +2748,7 @@
         "print(\"2. Previewing last 5 records\")\n",
         "print(medicaid_exp.tail(5))"
       ],
-      "execution_count": 183,
+      "execution_count": 41,
       "outputs": [
         {
           "output_type": "stream",
@@ -2537,7 +2797,7 @@
           "base_uri": "https://localhost:8080/",
           "height": 276
         },
-        "outputId": "0408ed2f-55b5-48bb-9ae9-249e86be001e"
+        "outputId": "67ad3e91-1ab7-437f-93c5-f69fb24e4e07"
       },
       "cell_type": "code",
       "source": [
@@ -2555,7 +2815,7 @@
         "print(\"4. Checking dataset\")\n",
         "print(medicaid_exp.tail(10))"
       ],
-      "execution_count": 184,
+      "execution_count": 42,
       "outputs": [
         {
           "output_type": "stream",
@@ -2582,12 +2842,36 @@
     },
     {
       "metadata": {
+        "id": "1OtTZIpksCbf",
+        "colab_type": "text"
+      },
+      "cell_type": "markdown",
+      "source": [
+        "##### Exporting dataset"
+      ]
+    },
+    {
+      "metadata": {
+        "id": "M59YanqysDsD",
+        "colab_type": "code",
+        "colab": {}
+      },
+      "cell_type": "code",
+      "source": [
+        "medicaid_exp.to_csv(\"medicaid_expanded.csv\")"
+      ],
+      "execution_count": 0,
+      "outputs": []
+    },
+    {
+      "metadata": {
         "id": "xjViP761KcEx",
         "colab_type": "text"
       },
       "cell_type": "markdown",
       "source": [
-        "#### Dataset 2: insurance rates by state"
+        "#### Dataset 2: insurance rates by state\n",
+        "https://www.kaggle.com/hhs/health-insurance"
       ]
     },
     {
@@ -2598,7 +2882,7 @@
           "base_uri": "https://localhost:8080/",
           "height": 2421
         },
-        "outputId": "dde06469-1352-49a9-f1f7-580be8f50679"
+        "outputId": "a8e4b676-3783-4759-80a1-393b0aa7b7e7"
       },
       "cell_type": "code",
       "source": [
@@ -2618,7 +2902,7 @@
         "print(state_insurance.columns)\n",
         "print(list(state_insurance))"
       ],
-      "execution_count": 185,
+      "execution_count": 45,
       "outputs": [
         {
           "output_type": "stream",
@@ -2817,13 +3101,13 @@
           "base_uri": "https://localhost:8080/",
           "height": 415
         },
-        "outputId": "dbc5e9c4-be27-47f5-d679-4f711127bd83"
+        "outputId": "c6cfe839-387c-4f61-c308-3d4a0bcca336"
       },
       "cell_type": "code",
       "source": [
         "print(state_insurance.head(10))"
       ],
-      "execution_count": 188,
+      "execution_count": 48,
       "outputs": [
         {
           "output_type": "stream",
@@ -2858,6 +3142,29 @@
     },
     {
       "metadata": {
+        "id": "cBmIi4DBsQtj",
+        "colab_type": "text"
+      },
+      "cell_type": "markdown",
+      "source": [
+        "##### Exporting dataset"
+      ]
+    },
+    {
+      "metadata": {
+        "id": "Yy7c3cfusSC8",
+        "colab_type": "code",
+        "colab": {}
+      },
+      "cell_type": "code",
+      "source": [
+        "state_insurance.to_csv(\"uninsured.csv\")"
+      ],
+      "execution_count": 0,
+      "outputs": []
+    },
+    {
+      "metadata": {
         "id": "fS94MwUSiA7d",
         "colab_type": "text"
       },
@@ -2874,7 +3181,9 @@
       },
       "cell_type": "markdown",
       "source": [
-        "#### State population"
+        "#### State population\n",
+        "\n",
+        "https://www.kff.org/other/state-indicator/total-residents/?currentTimeframe=0&sortModel=%7B%22colId%22:%22Location%22,%22sort%22:%22asc%22%7D"
       ]
     },
     {
@@ -2895,7 +3204,7 @@
           "base_uri": "https://localhost:8080/",
           "height": 432
         },
-        "outputId": "b2f531db-dfe9-44c3-fc3b-b24df99c09a5"
+        "outputId": "262f2fce-ecac-44f2-de75-08169bdca228"
       },
       "cell_type": "code",
       "source": [
@@ -2916,7 +3225,7 @@
         "print(statepop.columns)\n",
         "print(list(statepop))"
       ],
-      "execution_count": 189,
+      "execution_count": 51,
       "outputs": [
         {
           "output_type": "stream",
@@ -2968,7 +3277,7 @@
           "base_uri": "https://localhost:8080/",
           "height": 484
         },
-        "outputId": "7ea81cd8-de47-4009-c528-1975d1b235e9"
+        "outputId": "0905cb93-7f88-41e1-a804-1d506dbbb070"
       },
       "cell_type": "code",
       "source": [
@@ -2989,7 +3298,7 @@
         "print(\"5. Checking dataset\")\n",
         "print(statepop.head(10))"
       ],
-      "execution_count": 190,
+      "execution_count": 52,
       "outputs": [
         {
           "output_type": "stream",
@@ -3028,12 +3337,41 @@
     },
     {
       "metadata": {
+        "id": "XL-t_0R6spi5",
+        "colab_type": "text"
+      },
+      "cell_type": "markdown",
+      "source": [
+        "##### Exporting dataset"
+      ]
+    },
+    {
+      "metadata": {
+        "id": "R4twwQBDsqzm",
+        "colab_type": "code",
+        "colab": {}
+      },
+      "cell_type": "code",
+      "source": [
+        "statepop.to_csv(\"state_population.csv\")"
+      ],
+      "execution_count": 0,
+      "outputs": []
+    },
+    {
+      "metadata": {
         "id": "KRh5PyG4qOXe",
         "colab_type": "text"
       },
       "cell_type": "markdown",
       "source": [
-        "#### Voting behavior for 2012 and 2016 by state"
+        "#### Voting behavior for 2012 and 2016 by state\n",
+        "\n",
+        "constructed from the following:\n",
+        "\n",
+        "https://transition.fec.gov/pubrec/fe2016/2016presgeresults.pdf\n",
+        "\n",
+        "https://transition.fec.gov/pubrec/fe2012/2012presgeresults.pdf"
       ]
     },
     {
@@ -3054,7 +3392,7 @@
           "base_uri": "https://localhost:8080/",
           "height": 915
         },
-        "outputId": "7b87eec9-2f1c-473c-975e-8413655e4003"
+        "outputId": "772b8982-d221-4da3-b0d6-37529c3e6d19"
       },
       "cell_type": "code",
       "source": [
@@ -3066,7 +3404,7 @@
         "\n",
         "print(elections)"
       ],
-      "execution_count": 191,
+      "execution_count": 55,
       "outputs": [
         {
           "output_type": "stream",
@@ -3127,6 +3465,29 @@
           "name": "stdout"
         }
       ]
+    },
+    {
+      "metadata": {
+        "id": "_0POXcOzs5JI",
+        "colab_type": "text"
+      },
+      "cell_type": "markdown",
+      "source": [
+        "##### Exporting dataset"
+      ]
+    },
+    {
+      "metadata": {
+        "id": "Zsc34gUas68n",
+        "colab_type": "code",
+        "colab": {}
+      },
+      "cell_type": "code",
+      "source": [
+        "elections.to_csv(\"elections.csv\")"
+      ],
+      "execution_count": 0,
+      "outputs": []
     },
     {
       "metadata": {
