@@ -14,10 +14,11 @@ Contains my colab notebooks from the class lab sessions
 Contains my colab notebook and datasets for THA3
 ### "Final project" 
 Contains all materials related to the final project:
-	* Paper, with all drafts of the paper, outline, and proposal
-	* Scripts, with all code
-	* Working data, with all data i'm working with right now
-	* Raw data, which contains raw data files
+* Paper drafts, with all drafts of the paper, outline, and proposal
+* Code, with all code sorted by importing/cleaning and merging code
+* Data: folders for raw data, cleaned data, and the final merged data
+* Output, with all results and tables
+* Data management plan
 ### "THA4" contains my code, raw datasets, merged datasets for THA4
 * Code, with all files related to code
 * Merged_dataset, which contains the merged dataset
