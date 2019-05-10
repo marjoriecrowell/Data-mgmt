@@ -19,6 +19,7 @@ Contains all materials related to the final project:
 * Data: folders for raw data, cleaned data, and the final merged data
 * Output, with all results and tables
 * Data management plan
+
 ### "THA4" contains my code, raw datasets, merged datasets for THA4
 * Code, with all files related to code
 * Merged_dataset, which contains the merged dataset
