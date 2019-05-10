@@ -1,0 +1,52 @@
+,number_providers,state,state_fullname,number_cpcs,number_abortions,any_gest_limit_str,ultrasound_required_str,ASC_requirement_str,pre_Roe_ban_str,want_to_limit_str,protects_right_str,waiting_period_str,Hyde_str,more_than_hyde_str,parental_consent_str,partial_birth_ban_str,medicaid_expanded_str,uninsured_2010,uninsured_2015,uninsured_change_201015,state_pop,vote2016_str,vote2012_str
+0,5.0,AL,Alabama,50.0,8020.0,Yes,Yes,Yes,Yes,No,No,Yes,Yes,No,Consent enforced,Enjoined or not Enforced,Not Adopted,14.6,10.1, -4.5,4741400.0,R,R
+1,3.0,AK,Alaska,10.0,1470.0,No,No,No,No,No,No,No,No,Yes,Notification enjoined or not enforced,Enjoined or not Enforced,Adopted,19.9,14.9, -5,710100.0,R,R
+2,9.0,AZ,Arizona,48.0,12870.0,Yes,Yes,Yes,Yes,No,No,Yes,No,No,Consent enforced,Yes,Adopted,16.9,10.8, -6.1,6841300.0,R,R
+3,3.0,AR,Arkansas,45.0,4590.0,Yes,Yes,Yes,Yes,Yes,No,Yes,Yes,No,Consent enforced,Yes,Adopted,17.5,9.5, -8,2910000.0,R,R
+4,152.0,CA,California,172.0,157350.0,Yes,No,No,No,No,Yes,No,No,Yes,Consent enjoined or not enforced,No,Adopted,18.5,8.6, -9.9,38713900.0,D,D
+5,21.0,CO,Colorado,60.0,13160.0,No,No,No,No,No,No,No,Yes,No,Notification enforced,No,Adopted,15.9,8.1, -7.8,5461100.0,D,D
+6,25.0,CT,Connecticut,20.0,13140.0,Yes,No,No,No,No,Yes,No,No,Yes,No Law,No,Adopted,9.1,6, -3.1,3478700.0,D,D
+7,3.0,DE,Delaware,8.0,3010.0,Yes,No,No,No,No,Yes,No,Yes,No,Notification enforced,No,Adopted,9.7,5.9, -3.8,931700.0,D,D
+8,5.0,DC,District of Columbia,3.0,5820.0,No,No,No,No,No,No,No,Yes,No,No Law,No,Adopted,7.6,3.8, -3.8,657600.0,D,D
+9,71.0,FL,Florida,157.0,75990.0,Yes,Yes,No,No,No,No,Enjoined; policy not in effect,Yes,No,Notification enforced,Enjoined or not Enforced,Not Adopted,21.3,13.3, -8,20532300.0,R,D
+10,17.0,GA,Georgia,99.0,33000.0,Yes,Yes,No,No,No,No,Yes,Yes,No,Notification enforced,Yes,Not Adopted,19.7,13.9, -5.8,10121400.0,R,R
+11,4.0,HI,Hawaii,8.0,3760.0,Yes,No,No,No,No,Yes,No,No,Yes,No Law,No,Adopted,7.9,4, -3.9,1356100.0,D,D
+12,3.0,ID,Idaho,23.0,1320.0,Yes,Yes,No,No,No,No,Yes,Yes,No,Consent enforced,Enjoined or not Enforced,Adopted,17.7,11, -6.7,1682100.0,R,R
+13,24.0,IL,Illinois,108.0,42270.0,Yes,No,No,No,No,No,No,No,Yes,Notification enforced,Enjoined or not Enforced,Adopted,13.8,7.1, -6.7,12496600.0,D,D
+14,9.0,IN,Indiana,104.0,8180.0,Yes,Yes,Yes,No,No,No,Yes,Yes,No,Consent enforced,Yes,Adopted,14.8,9.6, -5.2,6459400.0,R,R
+15,12.0,IA,Iowa,46.0,4380.0,Yes,Yes,No,No,No,No,Policy temporarily enjoined; policy not in effect,Yes,No,Notification enforced,Enjoined or not Enforced,Adopted,9.3,5, -4.3,3045600.0,R,D
+16,4.0,KS,Kansas,35.0,7240.0,Yes,Yes,Yes; Policy not in effect,No,Yes,No,Yes,Yes,No,Consent enforced,Yes,Not Adopted,13.9,9.1, -4.8,2817600.0,R,R
+17,2.0,KY,Kentucky,51.0,3530.0,Yes,Yes,Yes,No,Yes,No,Yes,Yes,No,Consent enforced,Enjoined or not Enforced,Adopted,15.3,6, -9.3,4307100.0,R,R
+18,5.0,LA,Louisiana,29.0,10150.0,Yes,Yes,Yes,No,Yes,No,Yes,Yes,No,Consent enforced,Yes,Adopted,17.8,11.9, -5.9,4541500.0,R,R
+19,4.0,ME,Maine,13.0,2220.0,Yes,No,No,No,No,Yes,No,Yes,No,No Law,No,Adopted,10.1,8.4, -1.7,1300200.0,D,D
+20,25.0,MD,Maryland,49.0,28140.0,Yes,No,No,No,No,Yes,No,No,Yes,Notification enforced,No,Adopted,11.3,6.6, -4.7,5892900.0,D,D
+21,14.0,MA,Massachusetts,27.0,21020.0,Yes,No,No,No,No,No,Enjoined; policy not in effect,No,Yes,Consent enforced,No,Adopted,4.4,2.8, -1.6,6620600.0,D,D
+22,20.0,MI,Michigan,97.0,29120.0,Yes,Yes,Yes,Yes,No,No,Yes,Yes,No,Consent enforced,Yes,Adopted,12.4,6.1, -6.3,9720300.0,R,D
+23,6.0,MN,Minnesota,79.0,9760.0,Yes,No,No,No,No,No,Yes,No,Yes,Notification enforced,No,Adopted,9.1,4.5, -4.6,5446600.0,D,D
+24,1.0,MS,Mississippi,31.0,2290.0,Yes,Yes,Yes,Yes,No,No,Yes,Yes,No,Consent enforced,Yes,Not Adopted,18.2,12.7, -5.5,2884500.0,R,R
+25,1.0,MO,Missouri,73.0,5130.0,Yes,Yes,Yes,No,Yes,No,Yes,Yes,No,Consent enforced,Enjoined or not Enforced,Not Adopted,13.2,9.8, -3.4,5921300.0,R,R
+26,5.0,MT,Montana,18.0,1690.0,Yes,No,No,No,No,No,Enjoined; policy not in effect,No,Yes,Consent and notification temporarily enjoined,Yes,Adopted,17.3,11.6, -5.7,1022600.0,R,R
+27,3.0,NE,Nebraska,23.0,2280.0,Yes,Yes,No,No,No,No,Yes,Yes,No,Consent enforced,Enjoined or not Enforced,Adopted,11.5,8.2, -3.3,1859200.0,R,R
+28,8.0,NV,Nevada,6.0,10970.0,Yes,No,No,No,No,Yes,No,Yes,No,Notification enjoined or not enforced,No,Adopted,22.6,12.3, -10.3,2946600.0,D,D
+29,4.0,NH,New Hampshire,16.0,2540.0,No,No,No,No,No,No,No,Yes,No,Notification enforced,Yes,Adopted,11.1,6.3, -4.8,1297000.0,D,D
+30,41.0,NJ,New Jersey,40.0,44460.0,No,No,No,No,No,No,No,No,Yes,Notification enjoined or not enforced,Enjoined or not Enforced,Adopted,13.2,8.7, -4.5,8823900.0,D,D
+31,9.0,NM,New Mexico,24.0,4650.0,No,No,No,Yes,No,No,No,No,Yes,Consent enjoined or not enforced,Yes,Adopted,19.6,10.9, -8.7,2038200.0,D,D
+32,95.0,NY,New York,112.0,119940.0,Yes,No,No,No,No,No,No,No,Yes,No Law,No,Adopted,11.9,7.1, -4.8,19315700.0,D,D
+33,16.0,NC,North Carolina,87.0,29960.0,Yes,Yes,Yes,No,No,No,Yes,Yes,No,Consent enforced,No,Not Adopted,16.8,11.2, -5.6,9948800.0,R,R
+34,1.0,ND,North Dakota,6.0,1260.0,Yes,Yes,No,No,Yes,No,Yes,Yes,No,Consent enforced,Yes,Adopted,9.8,7.8, -2,726000.0,R,R
+35,12.0,OH,Ohio,124.0,22730.0,Yes,Yes,Yes,No,Yes,No,Yes,Yes,No,Consent enforced,Yes,Adopted,12.3,6.5, -5.8,11323500.0,R,D
+36,3.0,OK,Oklahoma,43.0,5330.0,Yes,Yes,Yes,Yes,No,No,Yes,Yes,No,Notification and consent enforced,Yes,Not Adopted,18.9,13.9, -5,3803700.0,R,R
+37,15.0,OR,Oregon,45.0,9330.0,No,No,No,No,No,Yes,No,No,Yes,No Law,No,Adopted,17.1,7, -10.1,4063000.0,D,D
+38,20.0,PA,Pennsylvania,138.0,32030.0,Yes,No,Yes,No,No,No,Yes,Yes,No,Consent enforced,No,Adopted,10.2,6.4, -3.8,12389100.0,R,D
+39,3.0,RI,Rhode Island,4.0,3580.0,Yes,No,Yes,No,No,No,No,Yes,No,Consent enforced,Enjoined or not Enforced,Adopted,12.2,5.7, -6.5,1015900.0,D,D
+40,3.0,SC,South Carolina,36.0,6040.0,Yes,Yes,Yes,No,No,No,Yes,Yes,No,Consent enforced,Yes,Not Adopted,17.5,10.9, -6.6,4864600.0,R,R
+41,1.0,SD,South Dakota,11.0,550.0,Yes,Yes,Yes,No,No,No,Yes,No,No,Notification enforced,Yes,Not Adopted,12.4,10.2, -2.2,837000.0,R,R
+42,7.0,TN,Tennessee,54.0,13880.0,Yes,No,Yes; Policy not in effect,No,No,No,Yes,Yes,No,Consent enforced,Yes,Not Adopted,14.4,10.3, -4.1,6538200.0,R,R
+43,28.0,TX,Texas,180.0,55230.0,Yes,Yes,Yes; Policy not in effect,No,No,No,Yes,Yes,No,Notification and consent enforced,Yes,Not Adopted,23.7,17.1, -6.6,27621300.0,R,R
+44,2.0,UT,Utah,6.0,2960.0,Yes,Yes,Yes,No,No,No,Yes,Yes,No,Notification and consent enforced,Yes,Adopted,15.3,10.5, -4.8,3047400.0,R,R
+45,6.0,VT,Vermont,9.0,1400.0,No,No,No,No,No,No,No,No,Yes,No Law,No,Adopted,8,3.8, -4.2,600200.0,D,D
+46,18.0,VA,Virginia,53.0,21080.0,Yes,Yes,No,No,No,No,Yes,Yes,No,Notification and consent enforced,Yes,Adopted,13.1,9.1, -4,8140700.0,D,D
+47,33.0,WA,Washington,56.0,19230.0,Yes,No,No,No,No,Yes,No,No,Yes,No Law,No,Adopted,14.2,6.6, -7.6,7239800.0,D,D
+48,2.0,WV,West Virginia,20.0,2020.0,Yes,Yes,No,Yes,No,No,Yes,Yes,No,Notification enforced,Enjoined or not Enforced,Adopted,14.6,6, -8.6,1762100.0,R,R
+49,4.0,WI,Wisconsin,62.0,6050.0,Yes,Yes,No,Yes,No,No,Yes,Yes,No,Consent enforced,Enjoined or not Enforced,Not Adopted,9.4,5.7, -3.7,5643000.0,R,D
+50,1.0,WY,Wyoming,11.0,120.0,Yes,No,No,No,No,No,No,Yes,No,Notification and consent enforced,No,Not Adopted,14.9,11.5, -3.4,563300.0,R,R
